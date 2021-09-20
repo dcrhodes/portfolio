@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.img {
+  position: relative;
+}
+
+.portfolioPhoto {
+  position: relative;
+}
+
+.img_img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.25s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text-merri {
+  font-family: 'Merriweather Sans', sans-serif;
+}
